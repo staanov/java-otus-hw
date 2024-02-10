@@ -20,20 +20,20 @@
 
 # После оптимизации
 
-| Размер хипа | Время выполнения          |
-| ----------- |---------------------------|
-| 256 MB | spend msec:5846, sec:5 |
-| 512 MB | spend msec:2192, sec:2 |
-| 640 MB | spend msec:2560, sec:2 |
-| 768 MB | spend msec:3021, sec:3 |
-| 1024 MB | spend msec:2061, sec:2 |
-| 2048 MB | spend msec:2067, sec:2 |
-| 3072 MB | spend msec:2216, sec:2 |
-| 3328 MB | spend msec:2601, sec:2 |
-| 3584 MB | spend msec:2270, sec:2 |
-| 4096 MB | spend msec:2169, sec:2 |
-| 5120 MB | spend msec:2150, sec:2 |
-| 8192 MB | spend msec:2143, sec:2 |
+| Размер хипа | Время выполнения         |
+| ----------- |--------------------------|
+| 256 MB | spend msec:2296, sec:2 |
+| 512 MB | spend msec:1327, sec:1|
+| 640 MB | spend msec:1411, sec:1 |
+| 768 MB | spend msec:1480, sec:1 |
+| 1024 MB | spend msec:1461, sec:1 |
+| 2048 MB | spend msec:1553, sec:1 |
+| 3072 MB | spend msec:1607, sec:1 |
+| 3328 MB | spend msec:1503, sec:1 |
+| 3584 MB | spend msec:1550, sec:1 |
+| 4096 MB | spend msec:1526, sec:1 |
+| 5120 MB | spend msec:1482, sec:1 |
+| 8192 MB | spend msec:1436, sec:1 |
 
 ## Вывод
-Оптимальный размер хипа: **1024 MB**
+Оптимальный размер хипа: **512 MB**

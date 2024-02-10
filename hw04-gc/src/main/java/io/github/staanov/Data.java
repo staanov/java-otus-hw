@@ -1,7 +1,7 @@
 package io.github.staanov;
 
 public class Data {
-    private final Integer value;
+    private final int value;
 
     public Data(Integer value) {
         this.value = value;
