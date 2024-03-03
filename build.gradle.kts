@@ -23,6 +23,8 @@ allprojects {
 			dependency("org.springframework.boot:spring-boot-starter:3.2.1")
 			dependency("com.google.guava:guava:33.0.0-jre")
 			dependency("org.springframework.boot:spring-boot-starter-test:3.2.1")
+			dependency("org.assertj:assertj-core:3.25.3")
+			dependency("org.mockito:mockito-core:5.10.0")
 		}
 	}
 }
