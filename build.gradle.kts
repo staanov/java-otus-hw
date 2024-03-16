@@ -25,6 +25,7 @@ allprojects {
 			dependency("org.springframework.boot:spring-boot-starter-test:3.2.1")
 			dependency("org.assertj:assertj-core:3.25.3")
 			dependency("org.mockito:mockito-core:5.10.0")
+			dependency("com.google.code.gson:gson:2.10.1")
 		}
 	}
 }
