@@ -26,6 +26,10 @@ allprojects {
 			dependency("org.assertj:assertj-core:3.25.3")
 			dependency("org.mockito:mockito-core:5.10.0")
 			dependency("com.google.code.gson:gson:2.10.1")
+			dependency("ch.qos.logback:logback-classic:1.5.3")
+			dependency("org.flywaydb:flyway-core:10.10.0")
+			dependency("com.zaxxer:HikariCP:5.1.0")
+			dependency("org.postgresql:postgresql:42.7.3")
 		}
 	}
 }
