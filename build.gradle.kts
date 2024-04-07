@@ -26,10 +26,15 @@ allprojects {
 			dependency("org.assertj:assertj-core:3.25.3")
 			dependency("org.mockito:mockito-core:5.10.0")
 			dependency("com.google.code.gson:gson:2.10.1")
-			dependency("ch.qos.logback:logback-classic:1.5.3")
+			dependency("ch.qos.logback:logback-classic:1.4.14")
 			dependency("org.flywaydb:flyway-core:9.22.3")
 			dependency("com.zaxxer:HikariCP:5.1.0")
 			dependency("org.postgresql:postgresql:42.7.3")
+			dependency("org.hibernate.orm:hibernate-core:6.4.4.Final")
+			dependency("org.projectlombok:lombok:1.18.32")
+			dependency("com.h2database:h2:2.2.224")
+			dependency("org.testcontainers:junit-jupiter:1.19.7")
+			dependency("org.testcontainers:postgresql:1.19.7")
 		}
 	}
 }
