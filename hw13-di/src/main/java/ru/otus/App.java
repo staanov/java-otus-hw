@@ -22,7 +22,7 @@ PS Приложение представляет собой тренажер т�
 @SuppressWarnings({"squid:S125", "squid:S106"})
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // Опциональные варианты
         // AppComponentsContainer container = new AppComponentsContainerImpl(AppConfig1.class, AppConfig2.class);
 
