@@ -35,6 +35,14 @@ allprojects {
 			dependency("com.h2database:h2:2.2.224")
 			dependency("org.testcontainers:junit-jupiter:1.19.7")
 			dependency("org.testcontainers:postgresql:1.19.7")
+			dependency("org.freemarker:freemarker:2.3.31")
+			dependency("org.eclipse.jetty:jetty-server:12.0.8")
+			dependency("org.eclipse.jetty:jetty-security:12.0.8")
+			dependency("org.eclipse.jetty:jetty-http:12.0.8")
+			dependency("org.eclipse.jetty:jetty-io:12.0.8")
+			dependency("org.eclipse.jetty:jetty-util:12.0.8")
+			dependency("org.eclipse.jetty.ee10:jetty-ee10-servlet:12.0.8")
+			dependency("org.eclipse.jetty.ee10:jetty-ee10-webapp:12.0.8")
 		}
 	}
 }

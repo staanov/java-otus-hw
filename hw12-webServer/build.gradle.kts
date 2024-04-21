@@ -29,6 +29,16 @@ dependencies {
 
     testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("org.testcontainers:postgresql")
+
+    implementation("org.freemarker:freemarker")
+    implementation("org.eclipse.jetty:jetty-server")
+    implementation("org.eclipse.jetty:jetty-security")
+    implementation("org.eclipse.jetty:jetty-http")
+    implementation("org.eclipse.jetty:jetty-io")
+    implementation("org.eclipse.jetty:jetty-util")
+
+    implementation("org.eclipse.jetty.ee10:jetty-ee10-servlet")
+    implementation("org.eclipse.jetty.ee10:jetty-ee10-webapp")
 }
 
 tasks.test {
