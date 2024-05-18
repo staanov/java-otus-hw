@@ -43,6 +43,9 @@ allprojects {
 			dependency("org.eclipse.jetty:jetty-util:12.0.8")
 			dependency("org.eclipse.jetty.ee10:jetty-ee10-servlet:12.0.8")
 			dependency("org.eclipse.jetty.ee10:jetty-ee10-webapp:12.0.8")
+			dependency("org.springframework.boot:spring-boot-starter-data-jdbc:3.2.5")
+			dependency("org.springframework.boot:spring-boot-starter-web:3.2.5")
+			dependency("org.springframework.boot:spring-boot-starter-thymeleaf:3.2.5")
 		}
 	}
 }
