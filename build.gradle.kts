@@ -46,6 +46,10 @@ allprojects {
 			dependency("org.springframework.boot:spring-boot-starter-data-jdbc:3.2.5")
 			dependency("org.springframework.boot:spring-boot-starter-web:3.2.5")
 			dependency("org.springframework.boot:spring-boot-starter-thymeleaf:3.2.5")
+			dependency("org.junit.jupiter:junit-jupiter-api:5.10.2")
+			dependency("org.junit.jupiter:junit-jupiter-engine:5.10.2")
+			dependency("org.junit.jupiter:junit-jupiter-params:5.10.2")
+			dependency("org.mockito:mockito-junit-jupiter:5.11.0")
 		}
 	}
 }
